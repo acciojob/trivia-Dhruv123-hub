@@ -1,2 +1,39 @@
 
-/* Your CSS Code here. */
+/* Your CSS Code here. */* CSS code for styling the quiz question space */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8fffe;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.question-container {
+    max-width: 600px;
+    margin: 10px;
+    padding: 15px;
+    border-left: 8px solid green;
+    background-color: #f8fffe;
+    font-weight: bold;
+}
+
+.question {
+    font-size: 18px;
+}
+
+.options {
+    margin-top: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.quotation {
+    margin-top: 10px;
+}
